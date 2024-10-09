@@ -68,7 +68,7 @@ nav li {
     line-height: 24px;
 }
 
-#ham-icon{
+#ham-icon {
     display: none;
 }
 
@@ -85,6 +85,56 @@ nav li {
     margin-left: -85px;
 }
 
+/* Habits section styles starts */
+.habits {
+    width: 1044px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+.section-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.habits-img {
+    border-radius: 50%;
+}
+
+.habits-imgs-container {
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.habits-img-card {
+    width: 231px;
+    gap: 40px;
+}
+
+.habit-img-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.habit-img-description {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 4px;
+    font-size: .875rem;
+    font-weight: 400;
+}
+
 /* Shared Style starts */
 .display-flex {
     display: flex;
@@ -93,7 +143,10 @@ nav li {
 .primary {
     color: rgb(230, 83, 60);
 }
-.text-center{text-align: center;}
+
+.text-center {
+    text-align: center;
+}
 
 .marginL {
     margin-left: 80px;
@@ -176,6 +229,32 @@ nav li {
 
 /* Mobile device */
 @media screen and (max-width:576px) {
+
+    /* Habits Section */
+    .habits {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .habits-imgs-container {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .habits-img-card{
+       margin: 0 auto;      
+       
+    }
+
+    .habits-img {
+        padding-top: 30px;
+    }
+
+    /* Header section */
     .video-btn {
         margin-top: 190px;
         margin-left: 20px;
@@ -212,9 +291,9 @@ nav li {
         width: 145px;
         height: 72px;
     }
-   
+
     #ham-icon {
-        display: contents;         
+        display: contents;
     }
 
     .nav-items {
