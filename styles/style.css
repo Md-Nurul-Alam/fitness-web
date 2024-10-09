@@ -135,6 +135,25 @@ nav li {
     font-weight: 400;
 }
 
+/* Run section style stars */
+.run {
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 18px;    
+    background: rgb(34, 34, 34);    
+}
+
+.run-content {
+    margin: 40px 150px 40px 54px;
+}
+
+.run-img img {
+    width: 95%;
+    border-radius: 18px;
+    margin: 37px 32px 30px 0;
+}
+
 /* Shared Style starts */
 .display-flex {
     display: flex;
@@ -152,9 +171,14 @@ nav li {
     margin-left: 80px;
 }
 
+.marginT {
+    margin-top: 20px;
+}
+
 .btn-primary {
     padding: 16px 40px;
     border: none;
+    width: 224px;
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
@@ -165,6 +189,7 @@ nav li {
 .btn {
     padding: 16px 40px;
     color: rgb(255, 255, 255);
+    width: 224px;
     margin-left: 15px;
     background: black;
     font-size: 1.125rem;
@@ -230,30 +255,6 @@ nav li {
 /* Mobile device */
 @media screen and (max-width:576px) {
 
-    /* Habits Section */
-    .habits {
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .section-title {
-        font-size: 2rem;
-    }
-
-    .habits-imgs-container {
-        flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .habits-img-card{
-       margin: 0 auto;      
-       
-    }
-
-    .habits-img {
-        padding-top: 30px;
-    }
-
     /* Header section */
     .video-btn {
         margin-top: 190px;
@@ -305,7 +306,8 @@ nav li {
     }
 
     .banner-container,
-    .banner-content {
+    .banner-content,
+    .run {
         flex-direction: column;
     }
 
@@ -358,4 +360,43 @@ nav li {
         width: 100%;
     }
 
+    /* Habits Section */
+    .habits {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .habits-imgs-container {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .habits-img-card {
+        margin: 0 auto;
+
+    }
+
+    .habits-img {
+        padding-top: 30px;
+    }
+
+    /*Run styles  */
+    .run {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .run-content {
+        margin: 31px 33px;
+    }
+    .run-img img{margin-top: 31px;
+        margin-left: 10px;
+    }
+    #run-btn{margin: 0 auto;}
 }
