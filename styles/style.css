@@ -140,8 +140,8 @@ nav li {
     width: 1060px;
     margin: 0 auto;
     margin-top: 100px;
-    border-radius: 18px;    
-    background: rgb(34, 34, 34);    
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
 }
 
 .run-content {
@@ -152,6 +152,94 @@ nav li {
     width: 95%;
     border-radius: 18px;
     margin: 37px 32px 30px 0;
+}
+
+/* BMI calculator section */
+.bmi-content {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.bmi-section-title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi-cal {
+    margin-top: 70px;
+}
+
+.bmi-cal-chart {
+    margin-left: 189px;
+}
+
+.bmi-cal-form {
+    width: 577px;
+}
+
+.chart-form-tiitle {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.chart-calcform-container {
+    margin-top: 0;
+    padding-top: 45px;
+    gap: 175px;
+    background: rgb(34, 34, 34);
+    width: 100%;
+}
+
+.input-container {
+    width: 577px;
+}
+
+.input {
+    padding: 12px 40px 12px 20px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 12px;
+    margin-right: 10px;
+    border: none;
+}
+
+#factor {
+    width: 84%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    margin-bottom: 30px;
+}
+table{margin-top: 50px;
+border-collapse: collapse;}
+table th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+tbody td {
+    color: rgba(255, 255, 255, 0.5);    
+    font-size: .875rem;
+    font-weight: 400;
+}
+th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 20px;
 }
 
 /* Shared Style starts */
@@ -169,6 +257,10 @@ nav li {
 
 .marginL {
     margin-left: 80px;
+}
+
+.marginB {
+    margin-bottom: 50px;
 }
 
 .marginT {
@@ -395,8 +487,13 @@ nav li {
     .run-content {
         margin: 31px 33px;
     }
-    .run-img img{margin-top: 31px;
+
+    .run-img img {
+        margin-top: 31px;
         margin-left: 10px;
     }
-    #run-btn{margin: 0 auto;}
+
+    #run-btn {
+        margin: 0 auto;
+    }
 }

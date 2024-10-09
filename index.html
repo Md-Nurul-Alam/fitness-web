@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/467b11ecd5.js" crossorigin="anonymous"></script>
 </head>
@@ -79,13 +79,65 @@
         </section>
         <section class="run display-flex">
             <div class="run-content">
-                <h4 class="section-title">Run an Extra 
+                <h4 class="section-title">Run an Extra
                     Mile Easily</h4>
-                <p class="section-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="section-description">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym. With hundreds of professional workouts.</p>
                 <button id="run-btn" class="btn-primary marginT ">Join Now</button>
             </div>
             <div class="run-img">
                 <img src="images/run.jpg" alt="">
+            </div>
+        </section>
+        <section class="bmi-cal">
+            <div class="bmi-content">
+                <h4 class="bmi-section-title">BMI Calculator</h4>
+                <p class="section-description">We believe fitness should be accessible to everyone, everywhere,
+                    regardless <br> of income or access to a gym.</p>
+            </div>
+            <div class="chart-calcform-container display-flex">
+                <div class="bmi-cal-chart">
+                    <h5 class="chart-form-tiitle">BMI Calculator Chart</h5>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>                        
+                    </table>
+                </div>
+                <div class="bmi-cal-form">
+                    <h5 class="chart-form-tiitle">Calculate your BMI</h5>
+                    <p class="section-description">We believe fitness should be accessible to everyone, everywhere,
+                        regardless of income or access to a gym. </p>
+                    <div class="input-container">
+                        <input type="number" name="" class="input" placeholder="Height/cm">
+                        <input type="number" name="" class="input" placeholder="Weight/kg"><br>
+                        <input type="number" name="" class="input" placeholder="Age">
+                        <input type="text" name="" class="input" placeholder="Sex"><br>
+                        <input type="text" name="" id="factor" placeholder="Select an activity factor">
+                    </div>
+                    <button class="btn-primary marginB">Calculate</button>
+                </div>
             </div>
         </section>
     </main>
