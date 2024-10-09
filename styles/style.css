@@ -213,7 +213,7 @@ nav li {
     border: none;
 }
 
-#factor {
+#factor{
     width: 84%;
     border: none;
     font-size: 1rem;
@@ -224,8 +224,12 @@ nav li {
     padding: 12px 20px;
     margin-bottom: 30px;
 }
-table{margin-top: 50px;
-border-collapse: collapse;}
+
+table {
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
 table th {
     color: rgb(255, 255, 255);
     font-size: 1rem;
@@ -233,11 +237,13 @@ table th {
 }
 
 tbody td {
-    color: rgba(255, 255, 255, 0.5);    
+    color: rgba(255, 255, 255, 0.5);
     font-size: .875rem;
     font-weight: 400;
 }
-th,td{
+
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 13px 20px;
 }
@@ -495,5 +501,25 @@ th,td{
 
     #run-btn {
         margin: 0 auto;
+    }
+
+    /* BMI section */
+    .chart-calcform-container {
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .bmi-cal-chart {
+        margin-left: 10%;
+    }
+
+    .bmi-cal-form {
+        margin-top: 40px;
+        width: 100%;
+        margin-left: 20px;
+    }    
+    .input{width: 100px;}
+    #factor{width:300px;
     }
 }
