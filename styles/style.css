@@ -421,6 +421,26 @@ footer h6 {
     margin-bottom: 0;
     padding-bottom: 40px;
 }
+/* Membership style */
+.membership h3{
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.membership p{ font-size: 2rem;
+font-weight: 500;}
+.membership h6{font-weight: 600;
+font-size: 2.5rem;
+margin-top: 30px;}
+.ship{width: 25%;
+margin: 0 auto;
+border: 2px solid black;}
+.membership a{text-decoration: none; color: black;}
+.membership a :hover{
+    color: purple;
+}
+.membership{background: rgba(46, 45, 45, 0.6);
+padding-bottom: 20px;}
 
 /* Shared Style starts */
 .display-flex {
